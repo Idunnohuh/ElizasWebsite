@@ -128,7 +128,7 @@ height: fit-content;
 }
 
 .filemanager > button{
-    background-image: url("../Images/File.png");
+    background-image: url("../Images/file.png");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
