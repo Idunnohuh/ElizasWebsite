@@ -1,8 +1,0 @@
-{
-    "workbench.colorTheme": "Default High Contrast",
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.quickSuggestions": false,
-    "editor.suggestOnTriggerCharacters": false,
-    "editor.suggest.matchOnWordStartOnly": false,
-    "editor.acceptSuggestionOnEnter": "off"
-}
