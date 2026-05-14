@@ -117,7 +117,7 @@ body{
 order: 1; 
 grid-area: FileManager;
 border: 30px solid transparent;
-border-image: url(../Images/File_Manager_borders.png) 30 round;
+border-image: url("../Images/File_Manager_borders.png") 30 round;
 display: grid;
 grid-template: min-content min-content / min-content min-content;
 align-content: start;
@@ -142,7 +142,7 @@ height: fit-content;
     margin: 0;
     font-family: "Cause", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -188,6 +188,4 @@ top: -160px;
     grid-area: screen;
     overflow: auto;
 }
-
-
 
