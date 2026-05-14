@@ -128,7 +128,7 @@ height: fit-content;
 }
 
 .filemanager > button{
-    background-image: url("../Images/file.png");
+    background-image: url("https://github.com/Idunnohuh/ElizasWebsite/blob/main/Images/file.png?raw=true");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
