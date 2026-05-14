@@ -189,3 +189,8 @@ top: -160px;
     overflow: auto;
 }
 
+.filemanager a {
+    text-decoration: none; 
+    display: contents;
+}
+
