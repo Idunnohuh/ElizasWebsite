@@ -1,0 +1,193 @@
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.notebook {
+    display: flex;
+    border: 30px solid transparent;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;  
+    padding-left: 24px;
+    background-clip: padding-box;
+    image-rendering: pixelated;
+    height: 900px;   
+    width: 800px; 
+    box-sizing: border-box;
+    background-image: url(../Images/Notebook_blue.png);
+    background-size: 100% 100%;
+}
+
+.paper {
+    position: relative;
+    display: grid;
+    border: 30px solid transparent;
+    height: 100%;   
+    width: 95%;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.bookmarks{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    right: 0px;
+    gap: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:  
+        'Website FileManager'
+        'Notepad Strawpage';
+    grid-template-columns: 1.5fr 1fr; 
+    grid-template-rows: auto 400px;
+    gap: 10px;
+    height: 90%;
+    width: 100%; 
+}
+
+.desk {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    min-height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    background-image:url("../images/Night_Sky_Scape.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: rgb(242, 190, 209);
+    margin: 0;
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#engineering{
+    background-image: url("../Images/Engineer.png");
+    background-size: contain;
+    border: 0px solid transparent;
+    background-repeat: no-repeat;
+    width: 25px;
+    aspect-ratio: 32/64;
+    background-color: transparent;
+}
+
+#home{
+    background-image:url("../Images/Home-Tab.png");
+    background-size: contain;
+    border: 0px solid transparent;
+    background-repeat: no-repeat;
+    width: 25px;
+    aspect-ratio: 32/64;
+    background-color: transparent;
+}
+
+#writing{
+    background-image:url("../Images/Writing.png");
+    background-size: contain;
+    border: 0px solid transparent;
+    background-repeat: no-repeat;
+    width: 25px;
+    aspect-ratio: 32/64;
+    background-color: transparent;
+}
+#reading{
+    background-image:url("../Images/Reading.png");
+    background-size: contain;
+    border: 0px solid transparent;
+    background-repeat: no-repeat;
+    width: 25px;
+    aspect-ratio: 32/64;
+    background-color: transparent;
+}
+
+
+.filemanager {
+order: 1; 
+grid-area: FileManager;
+border: 30px solid transparent;
+border-image: url(../Images/File_Manager_borders.png) 30 round;
+display: grid;
+grid-template: min-content min-content / min-content min-content;
+align-content: start;
+justify-content: space-evenly;
+gap: 30px;
+margin-top: 80px;
+height: fit-content;
+}
+
+.filemanager > button{
+    background-image: url("../Images/File.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90px;
+    width: 90px;
+    aspect-ratio: 1920/1500;
+    background-size: contain;
+    border: 0px solid transparent;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin: 0;
+    font-family: "Cause", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+
+.notepad {
+order: 3; 
+grid-area: Notepad;
+border: 30px solid transparent;
+border-image: url("../Images/Note-pad.png") 30 fill round;
+align-self: start;
+height: 200px;
+}
+
+.strawpage {
+order: 4; 
+grid-area: Strawpage;
+position: relative;
+top: -160px;
+}
+
+
+.strawpage iframe{
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 30%;
+}
+
+.website{
+    justify-content: center;
+    grid-area: Website;
+}
+
+.abtmeheader {
+    border-width: 1px;
+    grid-area: abtmeheader;
+    height: 20px;
+}
+
+.screen{
+    border: 30px solid transparent;
+    border-image: url("../Images/Border\ Heart.png") 30 round;
+    grid-area: screen;
+    overflow: auto;
+}
+
+
+
